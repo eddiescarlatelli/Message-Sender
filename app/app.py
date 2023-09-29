@@ -15,7 +15,7 @@ lista = glob.glob("D:/Escritorio/*.csv")
 #placa = input("Qual o final da placa para ser enviada a mensagem? ")
 mensagem = input("Qual a mensagem deseja enviar? ")
 
-"""# dataframe created given user inputs
+# dataframe created given user inputs
 planilha = pd.read_csv("D:/Escritorio/FINAL " + placa + ".csv" , encoding = "ISO-8859-1", sep = ';')
 #a log to store all phone numbers
 agenda = []
@@ -36,7 +36,7 @@ for index, telefone in enumerate(planilha['Fax ou Cel']):
     if telefoneFormat.isnumeric():
         agenda.append(telefoneFormat)
 # transforms the list in a set to avoid sending messages to the same recipient twice
-agenda = set(agenda)"""
+agenda = set(agenda)
 
 #agenda = ["24988271842","22998719290","21994092571","21997922107","21972399452","24999774849","24981508350"," 21997735453","21979760180","21980224364"]
 agenda = ["22998719290","21994092571","24999888855"]
